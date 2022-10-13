@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/robinsky/CS_223/MA2_BSTs/BST.h
+iostream
+-
+limits
+-
+vector
+-
+
+/home/robinsky/CS_223/MA2_BSTs/main.cpp
+BST.h
+/home/robinsky/CS_223/MA2_BSTs/BST.h
+
